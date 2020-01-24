@@ -71,10 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar {
+    margin: 15px 20px 50px 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-evenly;
+
+}
+.nav-a {
+    margin-top: 20px;
+    color: inherit;
+}
+
+.nav-bar nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -101,7 +128,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +138,39 @@ p {
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +203,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.ap-hero {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+    border-bottom: 1px dotted black;
+}
+.ap-hero-content {
+    margin: 15px 0 15px 0;
+    padding: 0px 15px 0px 15px;
+}
+
+.ap-boxes-1 , .ap-boxes-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+    padding-bottom: 30px;
+    
+}
+.ap-box {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+
+.ap-box img {
+    margin-bottom: 10px;
+}
+.ap-box button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+}
+
+.ap-bottom {
+    padding: 25px 0 25px 0;
 }
